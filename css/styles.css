@@ -37,6 +37,8 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
    
 }
 /* Шапка сайта */
@@ -44,10 +46,6 @@ img {
     display: flex;
     align-items: center;
     
-}
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .navigation {
     display: flex;
@@ -62,7 +60,8 @@ img {
     align-items: center;
     margin-left: auto;
 }
-.logo { 
+.logo { padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 77px;
     color: var(--title-text-color);
 font-family: 'Raleway', sans-serif;
@@ -82,6 +81,8 @@ margin-right: 40px;
         margin-right: 40px;
     }
  .menu .link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--title-text-color);
         font-weight: 500;
         font-size: 16px;
@@ -97,6 +98,8 @@ color: var(--primary-text-color);
 }
 
 .contacts .link {
+    padding-top: 24px;
+    padding-bottom: 24px;
 color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
@@ -111,16 +114,12 @@ color: var(--accent-color);
 .hero {
     background: var(--title-text-color);
 }
-.hero .container {
-    padding-top: 192px;
-    padding-bottom: 192px;
-    padding-left: 464px;
-    padding-right: 464px;
-    height: 603px;
-    width: 1440px;
-}
+
 .hero-title {
     margin-bottom: 48px;
+    width: 492px;
+    margin-left: auto;
+    margin-right: auto;
 color: var(--primary-white-colir);
 background-color: var(--title-text-color);
     font-weight: 500;
@@ -159,6 +158,10 @@ background-color: var(--title-text-color);
     background: #404BBF
 }
 /* Cекции */
+.hero.section {
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
 .team-section {
    background:  #F4F4FD;
 }
@@ -180,8 +183,6 @@ color: var(--title-text-color);
     
 }
 .section {
-    padding-left: 156px;
-    padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -201,10 +202,7 @@ color: var(--title-text-color);
 }
 
 .about-section.section {
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-top: 120px;
-    padding-bottom: 0px;
+    
 }
 
 .about-section .list {
@@ -232,6 +230,7 @@ color: var(--title-text-color);
 .employe-card {
 border: 1px solid var(--primary-white-colir);
 padding-top: 32px;
+padding-bottom: 32px;
 text-align: center;
 background: #FFFFFF;
 }
@@ -239,13 +238,9 @@ background: #FFFFFF;
     margin-right: 24px;
 }
 /* Підвал */
-.footer .container{
-    width: 1440px;
-    height: 310px;
+.footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 162px;
-    padding-right: 1020px;
     background: var(--title-text-color);
 }
 .white-logo {
@@ -267,20 +262,16 @@ background: #FFFFFF;
     clip: rect(0 0 0 0);
     overflow: hidden;
     } 
-    .filtr.section {
-        background: #F5F5F5;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 72px;
-        padding-top: 96px;
-    }
+    
     .portfolio.section {
-        background: #F5F5F5;
-        padding-top: 0px;
+        background: #FFFFFF;
+        padding-top: 96px;
+        padding-bottom: 120px;
     }
     .filtr .list {
         display: flex;
         justify-content: center;
+        margin-bottom: 72px;
     }
 .filtr-btn {
     color: var(--accent-color);
@@ -302,12 +293,6 @@ background: #FFFFFF;
 .filtr-btn:focus {
     color: var(--primary-white-colir);
     background: var(--accent-color);
-}
-.portfolio .container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 .portfolio .list {
     display: flex;
