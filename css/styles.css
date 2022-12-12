@@ -200,11 +200,6 @@ color: var(--title-text-color);
     line-height: 1.2;
     letter-spacing: 0.02em; 
 }
-
-.about-section.section {
-    
-}
-
 .about-section .list {
     display: flex;
     }
