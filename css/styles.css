@@ -162,6 +162,10 @@ background-color: var(--title-text-color);
     padding-top: 192px;
     padding-bottom: 192px;
 }
+.activity-section.section
+{
+    padding-top: 0px;
+}
 .team-section {
    background:  #F4F4FD;
 }
@@ -263,7 +267,7 @@ background: #FFFFFF;
         padding-top: 96px;
         padding-bottom: 120px;
     }
-    .filtr .list {
+    .filtr.list {
         display: flex;
         justify-content: center;
         margin-bottom: 72px;
@@ -282,7 +286,9 @@ background: #FFFFFF;
         letter-spacing: 0.04em;
         cursor: pointer;
         font-family: inherit;
+        margin-right: 24px;
 }
+
 
 .filtr-btn:hover,
 .filtr-btn:focus {
